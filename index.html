@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Portafolios</title>
+</head>
+<body>
+
+    <section>
+        <h2>Imagen Dalle</h2>
+        <img src="Assets/pixar.webp" alt="Descripción de la imagen">
+    </section>
+
+    
+    <header>
+        <h1>Primera Practica</h1>
+        <p>Me gusta jugar videojuegos, salir a rumbear, ir a comer y parchar en lugares con vistas bonitas</p>
+    </header>
+
+    
+    
+
+    
+    <section>
+        <h2>Mis Hobbies</h2>
+        <p>Toco guitarra, voy al gimnasio y juego basket</p>
+    </section>
+
+    
+    <section>
+        <h2>Video Practica</h2>
+        <video controls>
+            <source src="Assets/jalar o empujar.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </section>
+
+    
+    <section>
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="Assets/me disculpo.mp3" type="audio/mp3">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </section>
+
+    
+    <section>
+        <h2>Contacto</h2>
+        <form action="rutaParaProcesarFormulario" method="post">
+            <ul style="list-style-type: none; padding: 0;">
+                <li>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required>
+                </li>
+                <li>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </li>
+                <li>
+                    <label for="motivo">Motivo de consulta:</label><br>
+                    <textarea id="motivo" name="motivo" rows="4" required></textarea>
+                </li>
+                <li>
+                    <input type="submit" value="Enviar">
+                </li>
+            </ul>
+        </form>
+    </section>
+    
+    <section>
+        <h2>Redes Sociales</h2>
+        <table style="width:100%; border-collapse: collapse;">
+            <tr>
+                <th style="background-color: #4CAF50; color: white; padding: 10px;">Red Social</th>
+                <th style="background-color: #4CAF50; color: white; padding: 10px;">Link</th>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">Facebook</td>
+                <td style="text-align: center; padding: 10px;"><a href="https://facebook.com/tuUsuario"><img src="Assets/feisbuk.png" alt="Facebook" style="width: 50px; height: 50px;"></a></td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">Twitter</td>
+                <td style="text-align: center; padding: 10px;"><a href="https://twitter.com/tuUsuario"><img src="Assets/Twite.webp" alt="Twitter" style="width: 50px; height: 50px;"></a></td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>
